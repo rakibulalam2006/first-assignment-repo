@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }    
+body{
+    background-color: #dfe2ea;
+}
 /*header styles*/
 nav{
     display:flex;
@@ -151,8 +154,44 @@ nav{
     width: 840;
     height: 367;
 }
-
-
-
+/*form style*/
+.form-title{
+    display: flex;
+    justify-content: space-around;
+    padding:50px ;
+}
+.contact-section{
+    font-size: 60px;
+    font-weight: bold;
+}
+.contect-form input{
+    
+    padding: 32px 20px;
+    border-radius: 10px;
+    border-color: rgb(211, 207, 207);
+}
+.contect-form textarea{
+    border-radius: 10px;
+    border-color: rgb(211, 207, 207);
+}
+/*footer style*/
+.secondary-bg{
+    background-color: white;
+    text-align: center;
+}
+.section-title{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+.section-description{
+    width: 531;
+    height: 48;
+    color: #8987A1;
+}
+.about-items{
+    display: flex;
+    justify-content: center;
+}
 
 
